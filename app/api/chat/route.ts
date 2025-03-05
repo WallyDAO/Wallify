@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server"
 
-// Get environment variables with fallbacks for development
-const WALLY_API_KEY = process.env.WALLY_API_KEY || "wally_302e39393835373932373938383835303534"
-const WALLY_API_URL = process.env.WALLY_API_URL || "https://api.meetwally.app/api/chat/completions"
+const WALLY_API_KEY = process.env.WALLY_API_KEY
+const WALLY_API_URL = process.env.WALLY_API_URL 
 
 export async function POST(request: Request) {
   try {

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Twitter } from "lucide-react"
+import { Twitter, Github } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -23,6 +23,14 @@ export default function Footer() {
             className="text-[#1d9bf0] hover:text-[#1a8cd8] transition-colors"
           >
             <Twitter className="h-5 w-5" />
+          </Link>
+          <Link
+            href="https://github.com/SerPepe/wallify"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+          >
+            <Github className="h-5 w-5" />
           </Link>
         </div>
       </div>
