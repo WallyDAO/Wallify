@@ -25,7 +25,7 @@ export default function Footer() {
             <Twitter className="h-5 w-5" />
           </Link>
           <Link
-            href="https://github.com/SerPepe/wallify"
+            href="https://github.com/WallyDAO/Wallify"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
