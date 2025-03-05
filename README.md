@@ -65,4 +65,4 @@ When deploying to production:
 
 ## Building Your Own Applications
 
-This demo provides a foundation for developers interested in building on the Wally platform. When the public API becomes available, you can use similar patterns to create diverse AI-powered applications beyond Twitter integration. 
+This demo provides a foundation for developers interested in building on the Wally platform. When the public API becomes available, you can use similar patterns to create diverse AI-powered applications beyond Twitter integration. # Wallify
