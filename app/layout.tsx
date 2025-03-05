@@ -6,7 +6,7 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Twitter AI Self",
+  title: "Wallify by Wally",
   description: "Chat with an AI version of yourself based on your Twitter persona",
     generator: 'v0.dev'
 }
